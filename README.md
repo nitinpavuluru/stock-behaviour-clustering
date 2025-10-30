@@ -1,0 +1,5 @@
+This project analyzes the behavior of multiple stocks by grouping them based on their price movement patterns using the K-Means clustering algorithm. The goal is to identify stocks that exhibit similar trends over time, helping investors or analysts understand market segments, discover hidden correlations, and make informed portfolio decisions.
+
+The program collects stock data (either from CSV files or APIs like Yahoo Finance), processes it to calculate daily returns, and normalizes the data for uniform comparison. It then applies K-Means clustering to group the stocks, and visualizes the clusters through plots such as the Elbow curve and scatter charts. Each cluster represents a group of stocks that behave similarly, offering insights into diversification and market behavior.
+
+This project demonstrates the power of unsupervised learning in financial analysis and can be extended further by adding technical indicators, performing PCA for dimensionality reduction, or creating an interactive dashboard using Streamlit for real-time exploration of stock clusters.
